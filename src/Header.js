@@ -9,19 +9,19 @@ function Header() {
 <div className='logo'>
   <span className='logotext'>Stratcom</span>
 </div>
-        </div>
-
-        <nav className='navmenu'>
+<nav className='navmenu'>
           <ul className='navlist'>
             <li className='navitem'><a  className='navlink' href='/'>Home</a></li>
             <li className='navitem'><a  className='navlink' href='/'>AboutUs</a></li>
             <li className='navitem'><a  className='navlink' href='/'>Service</a></li>
             <li className='navitem'><a  className='navlink' href='/'>Login</a></li>
-            
-
+            <li className='navitem'><a  className='navlink' href='/'>SignUp</a></li>
 
           </ul>
         </nav>
+        </div>
+
+        
        </header>
     </div>
 
