@@ -4,7 +4,6 @@ import './Header.css'
 function Header() {
   return (
     <div>
-    <h1>hello</h1>
        <header className='header'>
         <div className='header-container'>
 <div className='logo'>
