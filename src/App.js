@@ -1,4 +1,5 @@
 //import logo from './logo.svg';
+import AboutUS from './AboutUS';
 import './App.css';
 import Carousel from './Carousel';
 import Header from './Header'; 
@@ -9,6 +10,7 @@ function App() {
      <div>
         <Header/>
         <Carousel/>
+        <AboutUS/>
         
      </div> 
   ) }
