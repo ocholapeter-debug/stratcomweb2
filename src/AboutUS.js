@@ -2,6 +2,21 @@ import React from 'react'
 import "./AboutUs.css"
 
 function AboutUS() {
+
+  const values = [
+    { title: 'Innovation', desc: 'Pushing boundaries with cutting-edge solutions' },
+    { title: 'Excellence', desc: 'Delivering quality in every service we provide' },
+    { title: 'Integrity', desc: 'Building trust through transparency and honesty' },
+    { title: 'Global Impact', desc: 'Empowering professionals worldwide' }
+  ];
+
+  const stats = [
+    { number: '5+', label: 'Years of Excellence' },
+    { number: '2k+', label: 'Students Trained' },
+    { number: '50+', label: 'Certified Instructors' },
+    { number: '98%', label: 'Success Rate' }
+  ];
+
   return (
     <div className='about-section' >
          <div className='about-container'>
@@ -37,9 +52,29 @@ function AboutUS() {
                   </div>
                   </div>
                   <div className='about-image'>
-                     <img src='./images/sande.jpg'/>
-                  </div> 
-                  
+                     <img  alt='pic' src='./images/sande.jpg' />
+                  </div>
+              </div>
+
+              <div className='stats-grid'>
+                     {stats.map((stat,idx)=>(
+                        <div key={idx} className='statcard'>
+                           <div className='statnumber'>{stat.number}</div>
+                           <div className='statlabel'>{stat.label}</div>
+                        </div>         
+                     ))}
+              </div>
+              <div className='values-section'>
+                      <h3 className='values-title'>Our Values</h3>
+                      <div className='values-grid'>
+                        {values.map((value,idx)=>(
+                           <div key={idx} className='value-card'>
+                                 <h4>{value.title}</h4>
+                                 <p>{value.desc}</p>
+                           </div>
+                        ))}
+
+                      </div>
               </div>
 
          </div>
