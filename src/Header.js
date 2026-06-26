@@ -1,31 +1,25 @@
 import React from 'react'
-import './Header.css' 
+import './Header.css'
 
 function Header() {
   return (
-    <div>
-       <header className='header'>
-        <div className='header-container'>
-<div className='logo'>
-  <span className='logotext'>Stratcom</span>
-</div>
-<nav className='navmenu'>
-          <ul className='navlist'>
-            <li className='navitem'><a  className='navlink' href='/'>Home</a></li>
-            <li className='navitem'><a  className='navlink' href='/'>AboutUs</a></li>
-            <li className='navitem'><a  className='navlink' href='/'>Service</a></li>
-            <li className='navitem'><a  className='navlink' href='/'>Login</a></li>
-            <li className='navitem'><a  className='navlink' href='/'>SignUp</a></li>
-
-          </ul>
-        </nav>
+      <header className='header'>
+        <div className='container headercontainer'>
+           <div className='logo'>
+             <span className='logotext'>Stratcom</span>
+           </div>
+           <nav className='navmenu'>
+         <ul className='navlist'>
+             <li className='navitem'><a className='navlink' href='/'>Home</a> </li>
+             <li className='navitem'><a className='navlink' href='/aboutus'>Aboutus</a> </li>
+             <li className='navitem'><a className='navlink' href='/services'>Services</a> </li>
+             <li className='navitem'><a className='navlink' href='/login'>Login</a> </li>
+             <li className='navitem'><a className='navlink' href='/signup'>SignUp</a> </li>
+         </ul>
+      </nav>
         </div>
-
-        
-       </header>
-    </div>
-
-
+      
+      </header>
   )
 }
 
