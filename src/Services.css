@@ -1,0 +1,54 @@
+.section-section{
+    padding: 5rem 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: limegreen;
+
+
+}
+
+.section-container{
+    max-width: 1200;
+    margin: auto;
+}
+
+.services-header{
+    text-align: center;
+
+    margin-bottom: 4rem;
+
+}
+.services-badge{
+    display: inline-block;
+    background-color: #6060ef;
+    padding: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    margin-bottom: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.servives-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.service-subtitle{
+    font-size:1.1rem;
+    color: blue;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.service-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,mimax(200));
+    gap: ;
+}
+.service-card:hover{
+    transition: translatev;
+}
