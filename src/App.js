@@ -3,6 +3,7 @@ import AboutUS from './AboutUS';
 import './App.css';
 import Carousel from './Carousel';
 import Header from './Header'; 
+import Services from './Services';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Header/>
         <Carousel/>
         <AboutUS/>
+        <Services/>
         
      </div> 
   ) }
