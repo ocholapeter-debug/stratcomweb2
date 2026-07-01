@@ -21,7 +21,8 @@ body{
     max-width: 1280px;
     margin:0 auto;
     padding: 0 2rem;
-    font-style: italic;
+    font-style: italic;margin-left: auto;
+    
 }
 
 .header-container{
@@ -29,23 +30,39 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 70px;
+    padding: 0 2rem;
+    max-width: 1280px;
 }
 
-.logotext{
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.header-logotext{
+    display: inline-block;
     font-size: 1.8rem;
     font-weight: 700;
-    background-clip: text;
-    color:blue;
+    color: #0f6fff;
     letter-spacing: 0.5px;
     transition: opacity 0.2s ease;
     cursor: pointer;
+    line-height: 1.2;
 }
 
 .navlist{
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     list-style: none;
     align-items: center;
+    justify-content: flex-end;
+    
 }
 
 .navlink{
@@ -54,4 +71,5 @@ body{
     font-size: 1rem;
     color: #1c84df;
     position: relative;
+    
 }
